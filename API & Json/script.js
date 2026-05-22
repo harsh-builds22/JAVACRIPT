@@ -177,7 +177,6 @@ console.log(arr[1].company.name);
 
 
 
-
 //    API
 
 // API stands for Application Programming Interface, 
