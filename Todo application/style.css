@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #090909;
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+    width: 100%;
+    color: #fff;
+}
+
+
+.main{
+  //  background: #de0c0c;
+    width: 100%;
+    max-width: 600px;
+    margin: 20px  auto;
+    padding: 3rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+
+   
+}
+
+
+.input-container{
+   
+   padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+
+}
+
+
+#todo-input{
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+    border-radius: 5px;  
+}
+
+.input-container #add-btn{
+    padding: 0.5rem 1rem;
+    background: #fff;
+    color: #0c0c0c;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+
+   .todo-cont{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   }
+   
+.todo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.7rem;
+    background: #33dcdc;
+    color: #0c0c0c;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.todo .delete-btn{
+    background: #e34d24;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 0.3rem 0.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.todo .edit-btn{
+    background: #fff;
+    color: #0c0c0c;
+    border: none;
+    outline: none;
+    padding: 0.3rem 0.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+header{
+    position:sticky;
+    top: 0;
+      background: #090909;
+      display: flex;
+      flex-direction: column;
+      padding: 1rem;
+}

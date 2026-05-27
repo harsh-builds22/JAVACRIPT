@@ -33,18 +33,18 @@ isMarried:false,
 // json example
    //  typeof(json)  is object
  
-let json = {
+let json22 = {
     "name":"harsh",
     "age":19,
     "city":"delhi",
     "isMarried":false
 }
 
-console.log(json);
-console.log(json.name);
-console.log(json.age);
-console.log(json.city);
-console.log(json.isMarried);
+console.log(json22);
+console.log(json22.name);
+console.log(json22.age);
+console.log(json22.city);
+console.log(json22.isMarried);
 
   let json2 = [
     {
@@ -183,4 +183,25 @@ console.log(arr[1].company.name);
 // it is a set of rules and protocols for building and interacting with software applications.
 //  It allows different software applications to communicate with each other, it is a way for different software applications to interact with each other,
 //  it is a way for different software applications to share data and functionality with each other.
+
+
+
+
+//eg
+ 
+let response = fetch('https://jsonplaceholder.typicode.com/users/2');
+console.log(response); 
+// it will return a promise, because it is an asynchronous operation, 
+// it will take some time to get the response from the server, so it will return a promise,
+//  which will be resolved when the response is received from the server.
+
+
+//   modern method
+
+async function getData(){
+  let response = await fetch('https://jsonplaceholder.typicode.com/users/1');
+  console.log(await response.json()); 
+}
+getData();
+
 
